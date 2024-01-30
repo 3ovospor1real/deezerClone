@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+
+body {
+    background: var(--bg-color);
+}
+
+.sidebar {
+    background-color: var(--sidebar-color);
+    width: 275px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-right: 1px solid #555257;
+}
+
+.sidebar nav {
+    padding: 30px 20px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.sidebar .logo-spotify {
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.sidebar nav ul li a {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+}
+
+.sidebar nav ul li a:hover {
+    background-color: #5552574a;
+}
+
+.sidebar .icon-side {
+    width: 36px;
+}
+
+.sidebar .navigation__text {
+    color: #fff;
+    font-family: var(--font);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.sidebar .home {
+    color: var(--deezer-color);
+}
